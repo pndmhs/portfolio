@@ -14,14 +14,14 @@ const Skills = () => {
       <div className="mx-auto w-10/12 flex flex-col justify-center max-w-6xl">
         <h2 className="mb-8">SKILLS</h2>
         <div className="grid grid-cols-4 sm:grid-cols-8 gap-5">
-          <Image width={96} src={htmlIcon}/>
-          <Image width={96} src={cssIcon}/>
-          <Image width={96} src={jsIcon}/>
-          <Image width={96} src={reactIcon}/>
-          <Image width={96} src={gitIcon}/>
-          <Image width={96} src={tailwindIcon}/>
-          <Image width={96} src={figmaIcon}/>
-          <Image width={96} src={inkscapeIcon}/>
+          <Image width={96} src={htmlIcon} title="HTML5" />
+          <Image width={96} src={cssIcon} title="CSS3" />
+          <Image width={96} src={jsIcon} title="JavaScript" />
+          <Image width={96} src={reactIcon} title="React" />
+          <Image width={96} src={gitIcon} title="Git" />
+          <Image width={96} src={tailwindIcon} title="Tailwind CSS" />
+          <Image width={96} src={figmaIcon} title="Figma" />
+          <Image width={96} src={inkscapeIcon} title="Inkscape" />
         </div>
       </div>
     </section>
