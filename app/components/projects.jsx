@@ -54,10 +54,18 @@ const Projects = () => {
               </div>
               <div className="flex gap-3 text-2xl">
                 <h3 className="mr-auto">{project.title}</h3>
-                <a href={project.repoURL}>
+                <a
+                  href={project.repoURL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaGithub />
                 </a>
-                <a href={project.demoURL}>
+                <a
+                  href={project.demoURL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <RiLinkM />
                 </a>
               </div>
