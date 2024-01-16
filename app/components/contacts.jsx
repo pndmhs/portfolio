@@ -32,7 +32,7 @@ const Contacts = () => {
               href={contact.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full md:w-48 flex items-center justify-center py-2 px-4 border rounded border-[#C6C6C6]"
+              className="w-full md:w-48 flex items-center justify-center py-2 px-4 border rounded border-[#C6C6C6] hover:bg-[#F0F0F0] hover:text-black active:bg-[#c4c4c4]"
             >
               <span className="mr-3">
                 {contact.icon}
