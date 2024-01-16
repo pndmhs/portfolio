@@ -4,9 +4,10 @@ import Skills from "./components/skills"
 
 const Home = () => {
   return (
-    <main>
+    <main className="bg-black">
       <About />
       <Skills />
+      <hr className="mx-auto lg:w-10/12 sm:w-11/12 max-w-6xl opacity-40" />
       <Projects />
     </main>
   )
