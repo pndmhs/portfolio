@@ -44,9 +44,9 @@ const Projects = () => {
 
   return (
     <section className="py-24">
-      <div className="mx-auto lg:w-10/12 sm:w-11/12 max-w-6xl" >
+      <div className="mx-auto w-10/12 max-w-6xl" >
         <h2 className="mb-11">FEATURED PROJECTS</h2>
-        <div className="grid grid-cols-2 gap-9">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-9">
           {featuredProjects.map((project, index) => (
             <div key={index} className="flex flex-col gap-4">
               <div className="w-full h-auto bg-gray-600 mb-3">
@@ -62,7 +62,7 @@ const Projects = () => {
                 </a>
               </div>
               <p className="text-[#C4C4C4]">{project.desc}</p>
-              <div className="flex gap-2 text-[#1A9CFF]">
+              <div className="flex flex-wrap gap-2 text-[#1A9CFF]">
                 {project.techStack.map((tools, index) => (
                   <div key={index} className="flex gap-2">
                     <p>{tools}</p>

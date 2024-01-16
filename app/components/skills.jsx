@@ -11,7 +11,7 @@ import inkscapeIcon from "../../public/inkscape.svg"
 const Skills = () => {
   return (
     <section className="py-24">
-      <div className="mx-auto lg:w-10/12 sm:w-11/12 flex flex-col justify-center max-w-6xl">
+      <div className="mx-auto w-10/12 flex flex-col justify-center max-w-6xl">
         <h2 className="mb-8">SKILLS</h2>
         <div className="flex gap-12 flex-wrap">
           <Image width={96} src={htmlIcon}/>
