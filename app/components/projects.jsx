@@ -46,7 +46,7 @@ const Projects = () => {
     <section className="py-14 md:py-24">
       <div className="mx-auto w-10/12 max-w-6xl" >
         <h2 className="mb-11">FEATURED PROJECTS</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-9">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-9 gap-y-12">
           {featuredProjects.map((project, index) => (
             <div key={index} className="flex flex-col gap-4">
               <div className="w-full h-auto bg-gray-600 mb-3">
