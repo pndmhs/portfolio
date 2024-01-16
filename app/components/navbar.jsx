@@ -3,11 +3,11 @@ const Navbar = () => {
     <nav className="bg-[#1a1a1a] sticky top-0">
       <div className="w-10/12 mx-auto flex h-16 md:h-20 items-center text-[#F0F0F0] max-w-6xl">
         <h1 className="mr-auto font-medium">PM.</h1>
-        <div className="hidden md:flex gap-7 items-center">
-          <a href="#">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contacts">Contact</a>
+        <div className="hidden md:flex gap-7 items-center text-gray-300 font-normal">
+          <a className="hover:text-white" href="#">About</a>
+          <a className="hover:text-white" href="#skills">Skills</a>
+          <a className="hover:text-white" href="#projects">Projects</a>
+          <a className="hover:text-white" href="#contacts">Contact</a>
         </div>
       </div>
     </nav>
