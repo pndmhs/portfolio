@@ -4,7 +4,7 @@ const dmSans = DM_Sans({ subsets: ['latin'] })
 
 const About = () => {
   return (
-    <section className="bg-[#1a1a1a]" id="about">
+    <section className="bg-[#1a1a1a]">
       <div className="mx-auto w-10/12 flex flex-col justify-center h-[calc(100vh-4rem)] md:h-[calc(100vh-5rem)] max-w-6xl">
         <h2>Hey, I'm 
           <br />
