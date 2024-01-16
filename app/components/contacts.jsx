@@ -22,7 +22,7 @@ const Contacts = () => {
   ]
 
   return (
-    <section className="py-14 md:py-24">
+    <section className="py-14 md:py-24" id="contacts">
       <div className="mx-auto w-10/12 flex flex-col md:flex-row max-w-6xl">
         <h2 className="mr-auto mb-4">CONTACTS</h2>
         <div className="flex flex-col sm:flex-row gap-2 text-[#C6C6C6]">

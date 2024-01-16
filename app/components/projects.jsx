@@ -43,7 +43,7 @@ const Projects = () => {
   ]
 
   return (
-    <section className="py-14 md:py-24">
+    <section className="py-14 md:py-24" id="projects">
       <div className="mx-auto w-10/12 max-w-6xl" >
         <h2 className="mb-11">FEATURED PROJECTS</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-9 gap-y-12">
