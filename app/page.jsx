@@ -1,4 +1,5 @@
 import About from "./components/about"
+import Contacts from "./components/contacts"
 import Projects from "./components/projects"
 import Skills from "./components/skills"
 
@@ -7,8 +8,10 @@ const Home = () => {
     <main className="bg-black">
       <About />
       <Skills />
-      <hr className="mx-auto lg:w-10/12 sm:w-11/12 max-w-6xl opacity-40" />
+      <hr className="mx-auto w-10/12 max-w-6xl border-gray-600" />
       <Projects />
+      <hr className="mx-auto w-10/12 max-w-6xl border-gray-600" />
+      <Contacts />
     </main>
   )
 }
