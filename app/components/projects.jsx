@@ -28,7 +28,7 @@ const Projects = () => {
       title: 'Battleship',
       repoURL: 'https://github.com/pndmhs/battleship',
       demoURL: 'https://pndmhs.github.io/battleship/',
-      techStack: ['HTML', 'CSS', 'JavaScript', 'Tailwind', 'Jest', 'Webpack'],
+      techStack: ['HTML', 'JavaScript', 'Tailwind', 'Jest', 'Webpack'],
       desc: 'A website version of the Battleship board game. This project was built using Test-Driven Development (TDD) with Jest',
       screenShot: battleship
     },
