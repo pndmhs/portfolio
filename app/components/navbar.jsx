@@ -2,7 +2,9 @@ const Navbar = () => {
   return (
     <nav className="bg-[#1a1a1a] sticky top-0">
       <div className="w-10/12 mx-auto flex h-16 md:h-20 items-center text-[#F0F0F0] max-w-6xl">
-        <h1 className="mr-auto font-medium">PM.</h1>
+        <h1 className="mr-auto font-medium">
+          <a href="#">PM.</a>
+        </h1>
         <div className="hidden md:flex gap-7 items-center text-gray-300 font-normal">
           <a className="hover:text-white" href="#">About</a>
           <a className="hover:text-white" href="#skills">Skills</a>
