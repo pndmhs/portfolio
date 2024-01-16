@@ -10,10 +10,10 @@ import inkscapeIcon from "../../public/inkscape.svg"
 
 const Skills = () => {
   return (
-    <section className="py-24">
+    <section className="py-14 md:py-24">
       <div className="mx-auto w-10/12 flex flex-col justify-center max-w-6xl">
         <h2 className="mb-8">SKILLS</h2>
-        <div className="flex gap-12 flex-wrap">
+        <div className="grid grid-cols-4 sm:grid-cols-8 gap-5">
           <Image width={96} src={htmlIcon}/>
           <Image width={96} src={cssIcon}/>
           <Image width={96} src={jsIcon}/>
