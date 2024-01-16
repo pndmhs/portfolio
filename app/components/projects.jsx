@@ -52,19 +52,23 @@ const Projects = () => {
               <div className="w-full h-auto bg-gray-600 mb-3">
                 <Image src={project.screenShot} />
               </div>
-              <div className="flex gap-3 text-2xl">
+              <div className="flex gap-1 items-center text-2xl">
                 <h3 className="mr-auto">{project.title}</h3>
                 <a
+                  className="hover:bg-gray-800 p-1.5 rounded-full"
                   href={project.repoURL}
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="GitHub Repository"
                 >
                   <FaGithub />
                 </a>
                 <a
+                  className="hover:bg-gray-800 p-1.5 rounded-full"
                   href={project.demoURL}
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Live Demo"
                 >
                   <RiLinkM />
                 </a>
