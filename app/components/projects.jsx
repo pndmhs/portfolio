@@ -50,7 +50,7 @@ const Projects = () => {
           {featuredProjects.map((project, index) => (
             <div key={index} className="flex flex-col gap-4">
               <div className="w-full h-auto bg-gray-600 mb-3">
-                <Image src={project.screenShot} />
+                <Image src={project.screenShot} alt={project.title} />
               </div>
               <div className="flex gap-1 items-center text-2xl">
                 <h3 className="mr-auto">{project.title}</h3>
