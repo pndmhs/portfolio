@@ -1,5 +1,6 @@
 import About from "./components/about"
 import Contacts from "./components/contacts"
+import Footer from "./components/footer"
 import Projects from "./components/projects"
 import Skills from "./components/skills"
 
@@ -12,6 +13,7 @@ const Home = () => {
       <Projects />
       <hr className="mx-auto w-10/12 max-w-6xl border-gray-600" />
       <Contacts />
+      <Footer />
     </main>
   )
 }
