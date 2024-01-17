@@ -7,7 +7,7 @@ export const runtime = 'edge'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: `Pandu Mahesa's Portfolio`,
+  title: `Pandu Mahesa | Portfolio`,
   description: `Welcome to Pandu Mahesa's portfolio website. Explore his professional journey, view samples of his work, and get in touch for collaboration opportunities.`,
 }
 
